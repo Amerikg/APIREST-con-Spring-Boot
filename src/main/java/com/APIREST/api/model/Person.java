@@ -1,5 +1,6 @@
 package com.APIREST.api.model;
 
+import jakarta.persistence.Version; 
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
@@ -28,6 +29,9 @@ public class Person {
     @Column(name = "date_registry")
     @CreatedDate
     private Date date;
+
+	@Version
+	private Long version;
 
     public Person(){
 
