@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import com.APIREST.api.model.Person;
 
 @Repository
-public interface PersonRepository extends JpaRepository<Person, Long>{
+public interface PersonRepository extends JpaRepository<Person, Long> {
 
     List<Person> findByName(@Param("name") String name);
-} 
+}
