@@ -19,7 +19,7 @@ Para ejecutar este proyecto, asegúrate de tener los siguientes elementos
 ### Clonando el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+git clone https://github.com/Amerikg/APIREST-con-Spring-Boot.git
 ```
 
 ### Configuración de MySQL
